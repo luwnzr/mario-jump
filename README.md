@@ -2,7 +2,7 @@
 # README - Super Mário HTML5
 
 
-![Preview do Jogo](imagens/gameplay.png.png) <!-- Adicione uma imagem de preview se tiver -->
+![Preview do Jogo](imagens/gameplay.jpg) <!-- Adicione uma imagem de preview se tiver -->
 
 Atenção: Este projeto foi desenvolvido seguindo o tutorial do canal Manual do Dev e todos os créditos pela criação original vão para o criador do conteúdo.
 
