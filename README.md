@@ -1,18 +1,7 @@
-
 # README - Super Mário HTML5
 
 
 ![Preview do Jogo](imagens/gameplay.JPG) <!-- Adicione uma imagem de preview se tiver -->
-
-Atenção: Este projeto foi desenvolvido seguindo o tutorial do canal Manual do Dev e todos os créditos pela criação original vão para o criador do conteúdo.
-
-📜 Licença e Créditos
-Este projeto foi desenvolvido como parte de um tutorial educativo do canal Manual do Dev no YouTube. Todo o crédito pela concepção original e pelo tutorial pertencem ao criador do canal.
-
-🎥 Link para o vídeo tutorial original
-https://youtu.be/r9buAwVBDhA?si=KcDKSAbyb4AkDPPq
-
-👍 Canal: Manual do Dev no YouTube
 
 Um jogo simples do Mário desenvolvido com HTML5, CSS3 e JavaScript puro.
 
