@@ -1,6 +1,6 @@
 # README - Super Mário HTML5
 
-# Um jogo simples do Mário desenvolvido com HTML5, CSS3 e JavaScript puro.
+## Um jogo simples do Mário desenvolvido com HTML5, CSS3 e JavaScript puro.
 
 ![Preview do Jogo](imagens/gameplay.JPG) <!-- Adicione uma imagem de preview se tiver -->
 
