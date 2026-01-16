@@ -1,43 +1,47 @@
-# README - Super Mário HTML5
+# 🍄 Mario Jump - Jogo em JavaScript
 
-## Um jogo simples do Mário desenvolvido com HTML5, CSS3 e JavaScript puro.
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+
+## 🎮 Sobre o Projeto
+
+Este é um mini-game estilo *Endless Runner* desenvolvido com **HTML, CSS e JavaScript**. O objetivo é controlar o Mario para pular sobre os tubos que se movem em direção ao jogador.
+
+O projeto foca na manipulação do **DOM**, tratamento de eventos de teclado e, principalmente, na lógica de colisão entre elementos animados.
+
+## 🕹️ Como Jogar
+
+1.  Abra o jogo no navegador.
+2.  Pressione **qualquer tecla** do teclado para fazer o Mario pular.
+3.  Evite tocar no tubo verde.
+4.  Se colidir, o jogo acaba (Game Over).
+
+## 🚀 Tecnologias e Conceitos Aplicados
+
+### 🎨 CSS3 (Animações)
+O movimento do jogo é criado inteiramente com CSS:
+* **`@keyframes pipe-animation`**: Move o tubo da direita para a esquerda infinitamente.
+* **`@keyframes jump`**: Controla a altura e suavidade do pulo do Mario.
+* **`@keyframes clouds-animation`**: Move as nuvens lentamente para criar efeito de paralaxe/profundidade.
+
+### ⚙️ JavaScript (Lógica do Jogo)
+* **Event Listener (`keydown`):** Captura a interação do usuário para ativar a função de pulo.
+* **Loop de Verificação (`setInterval`):** Um loop roda a cada **10ms** para verificar a posição dos elementos.
+* **Manipulação de Classes:** Adiciona e remove a classe `.jump` para ativar a animação CSS apenas quando necessário.
+
+💻 Como Executar
+Clone este repositório.
+
+Certifique-se de que as imagens estão na pasta ./imagens.
+
+Abra o arquivo index.html no seu navegador.
+
+🤝 Autor
+Desenvolvido por Luane.
+
+Projeto desenvolvido para fins de estudo de lógica de programação e animações web.
 
 ![Preview do Jogo](imagens/gameplay.JPG) <!-- Adicione uma imagem de preview se tiver -->
 
-## 🚀 Como Jogar
-1. **Baixe os arquivos** do jogo
-2. **Abra o arquivo `index.html`** no seu navegador
-3. **Pressione qualquer tecla** para fazer o Mário pular e evitar obstáculos
 
-## 🕹️ Controles
-- **Qualquer tecla do teclado**: Faz o Mário pular
-
-## 🛠️ Tecnologias Utilizadas
-- **HTML5**: Estrutura do jogo
-- **CSS3**: Estilização do jogo
-- **JavaScript**: Lógica do jogo e animações
-
-## 🔧 Funcionalidades Atuais
-- Personagem do Mário que reage a comandos
-- Sistema básico de pulo e gravidade
-- Detecção simples de colisões
-- Animação básica do personagem
-
-## 🚀 Melhorias Planejadas
-- [ ] Múltiplas fases com dificuldade progressiva
-- [ ] Sistema de vidas do jogador
-- [ ] Tela de título animada
-- [ ] Sistema de pontuação
-- [ ] Coleta de moedas com efeitos
-- [ ] Telas de início e game over
-
-📝 Nota do Desenvolvedor
-Este projeto foi criado seguindo o tutorial do Manual do Dev como forma de aprendizado das tecnologias web. Recomendo fortemente assistir aos vídeos do canal para entender todos os conceitos aplicados.
-
-Aviso Legal: Todos os assets gráficos são usados apenas para fins educacionais. Os direitos de personagens como Mário pertencem à Nintendo.
-
----
-
-Desenvolvido com ❤️ por Luane 
-📧 Contato: dev.luane@gmail.com  
-🌐 Portfolio: [seu-portfolio.com]
